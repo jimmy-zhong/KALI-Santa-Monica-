@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\delay.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\device.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\http_server.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\httputil.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\netbios.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\socket.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\spi.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\spi2.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\tcp_proc.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\ult.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\usart.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\util.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\w5500.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Ethernet\webpge.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\SRC\app.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\SRC\misc.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\UTILITY\spix.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\W5500\HTTP SERVR\User\Ethernet\W5500\w5500_conf.h</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+

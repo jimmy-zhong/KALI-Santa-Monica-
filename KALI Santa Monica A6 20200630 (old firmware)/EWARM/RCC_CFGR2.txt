@@ -1,0 +1,53 @@
+
+
+/********************  Bit definition for RCC_CR register  ********************/
+#define RCC_CR_HSION												0																	/*!< 0x00000001 */
+#define RCC_CR_HSIRDY												1																	/*!< 0x00000002 */
+#define RCC_CR_RSV2													2																	/*!< 0x00000004 */
+#define RCC_CR_HSITRIM											3 ~ 7															/*!< 0x000000F8 */
+#define RCC_CR_HSICAL												8 ~ 15														/*!< 0x0000FF00 */
+#define RCC_CR_HSEON												16																/*!< 0x00010000 */
+#define RCC_CR_HSERDY												17																/*!< 0x00020000 */
+#define RCC_CR_HSEBYP												18																/*!< 0x00040000 */
+#define RCC_CR_CSSON												19																/*!< 0x00080000 */
+#define RCC_CR_RSV20_23											20																/*!< 0x00F00000 */
+#define RCC_CR_PLLON												24																/*!< 0x01000000 */
+#define RCC_CR_PLLRDY												25																/*!< 0x02000000 */
+#define RCC_CR_PLL2ON												26																/*!< 0x04000000 */
+#define RCC_CR_PLL2RDY											27																/*!< 0x08000000 */
+#define RCC_CR_PLL3ON												28																/*!< 0x10000000 */
+#define RCC_CR_PLL3RDY											29																/*!< 0x20000000 */
+
+
+
+
+/*******************  Bit definition for RCC_CFGR register  *******************/
+/*!< SW configuration */
+#define RCC_CFGR_SW													0 ~ 1															/*!< 0x00000003 */
+#define RCC_CFGR_SWS												2 ~ 3															/*!< 0x0000000C */
+#define RCC_CFGR_HPRE												4 ~ 7															/*!< 0x000000F0 */
+#define RCC_CFGR_PPRE1											8 ~ 10														/*!< 0x00000700 */
+#define RCC_CFGR_PPRE2											11 ~ 13														/*!< 0x00003800 */
+#define RCC_CFGR_ADCPRE											14 ~ 15														/*!< 0x0000C000 */
+#define RCC_CFGR_PLLSRC											16																/*!< 0x00010000 */
+#define RCC_CFGR_PLLXTPRE										17																/*!< 0x00020000 */
+#define RCC_CFGR_PLLMULL										18 ~ 21														/*!< 0x003C0000 */
+#define RCC_CFGR_OTGFSPRE										22																/*!< 0x00400000 */
+#define RCC_CFGR_RSV23											23																/*!< 0x00800000 */
+#define RCC_CFGR_MCO												24 ~ 27														/*!< 0x0F000000 */
+
+
+
+
+/*******************  Bit definition for RCC_CFGR2 register  ******************/
+/*!< PREDIV1 configuration */
+#define RCC_CFGR2_PREDIV1										0 ~ 3															/*!< 0x0000000F */
+#define RCC_CFGR2_PREDIV2										4 ~ 7															/*!< 0x000000F0 */
+#define RCC_CFGR2_PLL2MUL										8 ~ 11														/*!< 0x00000F00 */
+#define RCC_CFGR2_PLL3MUL										12 ~ 15														/*!< 0x0000F000 */
+#define RCC_CFGR2_PREDIV1SRC								16																/*!< 0x00010000 */
+#define RCC_CFGR2_I2S2SRC										17																/*!< 0x00020000 */
+#define RCC_CFGR2_I2S3SRC										18																/*!< 0x00040000 */
+
+
+ 

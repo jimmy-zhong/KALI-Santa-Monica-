@@ -1,0 +1,234 @@
+TestSpeakerLEDEnable
+    KSM;SPKLEDENABLE_GET;207               KSM;ACK;OFF;11
+    KSM;SPKLEDENABLE_SET;ON;179            KSM;ACK;245
+    KSM;SPKLEDENABLE_GET;207               KSM;ACK;ON;205
+    KSM;SPKLEDENABLE_SET;OFF;241           KSM;ACK;245
+    KSM;SPKLEDENABLE_GET;207               KSM;ACK;OFF;11
+    KSM;SPKLEDENABLE_SET;ON;180            KSM;NACK;32769;137
+    KSM;SPKLEDENABLE_GET;208               KSM;NACK;32769;137
+    KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerName
+    KSM;SPKNAME_GET;116                    KSM;ACK;SM5-D9FF32;160
+    KSM;SPKNAME_SET;Test Name;252          KSM;ACK;245
+    KSM;SPKNAME_GET;116                    KSM;ACK;Test Name;113
+    KSM;SPKNAME_SET;This name is more than 12 characters.;159         KSM;NACK;16387;135
+    KSM;SPKNAME_GET;116                    KSM;ACK;Test Name;113
+    KSM;SPKNAME_GET;117                    KSM;NACK;32769;137
+    KSM;SPKNAME_SET;SM5-D9FF32;43          KSM;ACK;245
+    KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerPresetSelect
+0   KSM;SPKPRESET_GET;38                   KSM;ACK;F,5;215
+1   KSM;SPKPRESET_SET;F,1;16               KSM;ACK;245
+2   KSM;SPKPRESET_GET;38                   KSM;ACK;F,1;211
+3   KSM;SPKPRESET_SET;F,2;17               KSM;ACK;245
+4   KSM;SPKPRESET_GET;38                   KSM;ACK;F,2;212
+5   KSM;SPKPRESET_SET;F,3;18               KSM;ACK;245
+6   KSM;SPKPRESET_GET;38                   KSM;ACK;F,3;213
+7   KSM;SPKPRESET_SET;F,4;19               KSM;ACK;245
+8   KSM;SPKPRESET_GET;38                   KSM;ACK;F,4;214
+9   KSM;SPKPRESET_SET;F,5;20               KSM;ACK;245
+10  KSM;SPKPRESET_GET;38                   KSM;ACK;F,5;215
+11  KSM;SPKPRESET_SET;F,6;21               KSM;ACK;245
+12  KSM;SPKPRESET_GET;38                   KSM;ACK;F,6;216
+13  KSM;SPKPRESET_SET;F,7;22               KSM;ACK;245
+14  KSM;SPKPRESET_GET;38                   KSM;ACK;F,7;217
+15  KSM;SPKPRESET_SET;F,8;23               KSM;ACK;245
+16  KSM;SPKPRESET_GET;38                   KSM;ACK;F,8;218
+17  KSM;SPKPRESET_SET;U,1;31               KSM;ACK;245
+18  KSM;SPKPRESET_GET;38                   KSM;ACK;U,1;226
+19  KSM;SPKPRESET_SET;U,2;32               KSM;ACK;245
+20  KSM;SPKPRESET_GET;38                   KSM;ACK;U,2;227
+21  KSM;SPKPRESET_SET;U,3;33               KSM;ACK;245
+22  KSM;SPKPRESET_GET;38                   KSM;ACK;U,3;228
+23  KSM;SPKPRESET_SET;U,4;34               KSM;ACK;245
+24  KSM;SPKPRESET_GET;38                   KSM;ACK;U,4;229
+25  KSM;SPKPRESET_SET;U,5;35               KSM;ACK;245
+26  KSM;SPKPRESET_GET;38                   KSM;ACK;U,5;230
+27  KSM;SPKPRESET_SET;U,6;36               KSM;ACK;245
+28  KSM;SPKPRESET_GET;38                   KSM;ACK;U,6;231
+29  KSM;SPKPRESET_SET;U,7;37               KSM;ACK;245
+30  KSM;SPKPRESET_GET;38                   KSM;ACK;U,7;232
+31  KSM;SPKPRESET_SET;U,8;38               KSM;ACK;245
+32  KSM;SPKPRESET_GET;38                   KSM;ACK;U,8;233
+33  KSM;SPKPRESET_SET;F,5;20               KSM;ACK;245
+34  KSM;SPKPRESET_SET;F,9;24               KSM;NACK;16386;134
+35  KSM;SPKPRESET_SET;F,0;15               KSM;NACK;16386;134
+36  KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerControl
+0   KSM;SPKCONTROL_GET;116                 KSM;ACK;OFF;11
+1   KSM;SPKCONTROL_SET;ON;88               KSM;ACK;245
+2   KSM;SPKCONTROL_GET;116                 KSM;ACK;ON;205
+3   KSM;SPKCONTROL_SET;OFF;150             KSM;ACK;245
+4   KSM;SPKCONTROL_GET;116                 KSM;ACK;OFF;11
+5   KSM;SPKCONTROL_SET;ON;89               KSM;NACK;32769;137
+6   KSM;SPKCONTROL_GET;117                 KSM;NACK;32769;137
+7   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerDim
+0   KSM;SPKDIM_GET;45                      KSM;ACK;OFF;11
+1   KSM;SPKDIM_SET;ON;17                   KSM;ACK;245
+2   KSM;SPKDIM_GET;45                      KSM;ACK;ON;205
+3   KSM;SPKDIM_SET;OFF;79                  KSM;ACK;245
+4   KSM;SPKDIM_GET;45                      KSM;ACK;OFF;11
+5   KSM;SPKDIM_SET;ON;18                   KSM;NACK;32769;137
+6   KSM;SPKDIM_GET;46                      KSM;NACK;32769;137
+7   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerEQEnable (Not yet)
+
+
+TestSpeakerEQParameters (Not yet)
+
+
+TestSpeakerMute
+0   KSM;SPKMUTE_GET;142                    KSM;ACK;OFF;11
+1   KSM;SPKMUTE_SET;ON;114                 KSM;ACK;245
+2   KSM;SPKMUTE_GET;142                    KSM;ACK;ON;205
+3   KSM;SPKMUTE_SET;OFF;176                KSM;ACK;245
+4   KSM;SPKMUTE_GET;142                    KSM;ACK;OFF;11
+5   KSM;SPKMUTE_SET;ON;115                 KSM;NACK;32769;137
+6   KSM;SPKMUTE_GET;143                    KSM;NACK;32769;137
+7   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerStandbyEnable
+0   KSM;SPKSTANDBYENABLE_GET;15            KSM;ACK;OFF;11
+1   KSM;SPKSTANDBYENABLE_SET;ON;243        KSM;ACK;245
+2   KSM;SPKSTANDBYENABLE_GET;15            KSM;ACK;ON;205
+3   KSM;SPKSTANDBYENABLE_SET;OFF;49        KSM;ACK;245
+4   KSM;SPKSTANDBYENABLE_GET;15            KSM;ACK;OFF;11
+5   KSM;SPKSTANDBYENABLE_SET;ON;244        KSM;NACK;32769;137
+6   KSM;SPKSTANDBYENABLE_GET;16            KSM;NACK;32769;137
+7   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerAmpFault
+0   KSM;SPKTRIGGER;AMP;65                  KSM;ACK;245
+
+SPK ==>> CONTROLLER
+1   KSM;LSM_AMPFAULT;ON;163                KSM;ACK;245
+2   KSM;LSM_AMPFAULT;OFF;225               KSM;ACK;245
+
+CONTROLLER ==>> SPK
+3   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerLimiterEngaged
+0   KSM;SPKTRIGGER;LIM;69                  KSM;ACK;245
+
+SPK ==>> CONTROLLER
+1   KSM;LSM_LIMITERENG;ON;57               KSM;ACK;245
+2   KSM;LSM_LIMITERENG;OFF;119             KSM;ACK;245
+
+CONTROLLER ==>> SPK
+3   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerParameterChanged
+0   KSM;SPKTRIGGER;PAR;70                  KSM;ACK;245
+
+SPK ==>> CONTROLLER
+1   KSM;LSM_PARAMCHANGE;136                KSM;ACK;245
+
+CONTROLLER ==>> SPK
+2   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerStandbyDelay (Not yet)
+
+
+TestSpeakerDelay
+0   KSM;SPKDELAY_GET;194                   KSM;ACK;11;146
+1   KSM;SPKDELAY_SET;0;57                  KSM;ACK;245
+2   KSM;SPKDELAY_GET;194                   KSM;ACK;0;96
+3   KSM;SPKDELAY_SET;1;58                  KSM;ACK;245
+4   KSM;SPKDELAY_GET;194                   KSM;ACK;1;97
+5   KSM;SPKDELAY_SET;2;59                  KSM;ACK;245
+6   KSM;SPKDELAY_GET;194                   KSM;ACK;2;98
+7   KSM;SPKDELAY_SET;3;60                  KSM;ACK;245
+8   KSM;SPKDELAY_GET;194                   KSM;ACK;3;99
+9   KSM;SPKDELAY_SET;4;61                  KSM;ACK;245
+10  KSM;SPKDELAY_GET;194                   KSM;ACK;4;100
+11  KSM;SPKDELAY_SET;5;62                  KSM;ACK;245
+12  KSM;SPKDELAY_GET;194                   KSM;ACK;5;101
+13  KSM;SPKDELAY_SET;6;63                  KSM;ACK;245
+14  KSM;SPKDELAY_GET;194                   KSM;ACK;6;102
+15  KSM;SPKDELAY_SET;7;64                  KSM;ACK;245
+16  KSM;SPKDELAY_GET;194                   KSM;ACK;7;103
+17  KSM;SPKDELAY_SET;8;65                  KSM;ACK;245
+18  KSM;SPKDELAY_GET;194                   KSM;ACK;8;104
+19  KSM;SPKDELAY_SET;9;66                  KSM;ACK;245
+20  KSM;SPKDELAY_GET;194                   KSM;ACK;9;105
+21  KSM;SPKDELAY_SET;10;106                KSM;ACK;245
+22  KSM;SPKDELAY_GET;194                   KSM;ACK;10;145
+23  KSM;SPKDELAY_SET;11;107                KSM;ACK;245
+24  KSM;SPKDELAY_GET;194                   KSM;ACK;11;146
+25  KSM;SPKDELAY_SET;12;108                KSM;ACK;245
+26  KSM;SPKDELAY_GET;194                   KSM;ACK;12;147
+27  KSM;SPKDELAY_SET;11;107                KSM;ACK;245
+28  KSM;SPKDELAY_GET;194                   KSM;ACK;11;146
+29  KSM;SPKDELAY_SET;-1;103                KSM;NACK;16386;134
+30  KSM;SPKDELAY_SET;13;109                KSM;NACK;16386;134
+31  KSM;SPKDELAY_GET;194                   KSM;ACK;11;146
+32  KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerTrimLevel    (??????????????????)
+0   KSM;SPKTRIMLEVEL_GET;7                 KSM;ACK;9.00;247 (X)
+                                           KSM;ACK;11.5;245 (X)
+                                           KSM;ACK;-3.5;243 (X)
+
+TestSpeakerLocate
+0   KSM;SPKLOCATE;204                      KSM;ACK;245
+1   KSM;SPKLOCATE;205                      KSM;NACK;32769;137
+2   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerFirmwareVersion
+0   KSM;SPKFIRMWAREVER_GET;157             KSM;ACK;57X,0.5;179
+1   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestSpeakerDIPEnable
+0   KSM;SPKDIPSWENABLE_GET;129             KSM;ACK;OFF;11
+1   KSM;SPKDIPSWENABLE_SET;ON;101          KSM;ACK;245
+2   KSM;SPKDIPSWENABLE_GET;129             KSM;ACK;ON;205
+3   KSM;SPKDIPSWENABLE_SET;OFF;163         KSM;ACK;245
+4   KSM;SPKDIPSWENABLE_GET;129             KSM;ACK;OFF;11
+5   KSM;SPKDIPSWENABLE_SET;ON;102          KSM;NACK;32769;137
+6   KSM;SPKDIPSWENABLE_GET;130             KSM;NACK;32769;137
+7   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+TestUnknownMessage
+0   KSM;UNKNOWN;86                         KSM;NACK;32770;129
+1   KSM;DISCONNECT;16                      KSM;ACK;245
+Result: PASS
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>kali_sm_a5_20200608/STM3210C_EVAL</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>198</Column0><Column1>6</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1541</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+    <TerminalIO/><Find-in-Files><ColumnWidth0>473</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>710</ColumnWidth2><ColumnWidth3>315</ColumnWidth3></Find-in-Files><Select-Ambiguous-Definitions><ColumnWidth0>552</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>946</ColumnWidth2></Select-Ambiguous-Definitions></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4423-29311</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>kali_sm_a5_20200608</ExpandedNode><ExpandedNode>kali_sm_a5_20200608/Application</ExpandedNode><ExpandedNode>kali_sm_a5_20200608/Drivers</ExpandedNode><ExpandedNode>kali_sm_a5_20200608/Ethernet</ExpandedNode><ExpandedNode>kali_sm_a5_20200608/Ethernet/socket.c</ExpandedNode><ExpandedNode>kali_sm_a5_20200608/INCLUDE</ExpandedNode><ExpandedNode>kali_sm_a5_20200608/Middlewares</ExpandedNode><ExpandedNode>kali_sm_a5_20200608/Middlewares/FatFs</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-15171-29314</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-20169-29425</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-15803-26214</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-12947-26677</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\PresetEQ.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>40</SelStart2><SelEnd2>48</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\device.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>7</YPos2><SelStart2>421</SelStart2><SelEnd2>432</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\biquads.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>1085</SelStart2><SelEnd2>1085</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\INC\biquads.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>634</SelStart2><SelEnd2>634</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_crc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>2076</SelStart2><SelEnd2>2108</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_ll_crc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>151</YPos2><SelStart2>3788</SelStart2><SelEnd2>3788</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\INC\stm32f107xc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>933</YPos2><SelStart2>39486</SelStart2><SelEnd2>39497</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>325</YPos2><SelStart2>14189</SelStart2><SelEnd2>14213</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_crc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>249</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\Third_Party\FatFs\src\ff.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>798</YPos2><SelStart2>40432</SelStart2><SelEnd2>40432</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\KALI Santa Monica A4 20200514\EWARM\Ethernet\dhcp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>525</YPos2><SelStart2>16648</SelStart2><SelEnd2>16648</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\tcp_proc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>20</YPos2><SelStart2>1125</SelStart2><SelEnd2>1125</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\ult.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>59</YPos2><SelStart2>1860</SelStart2><SelEnd2>1866</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\socket.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>15</YPos2><SelStart2>747</SelStart2><SelEnd2>755</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\w5500.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>392</YPos2><SelStart2>10348</SelStart2><SelEnd2>10371</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\misc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>66</YPos2><SelStart2>2497</SelStart2><SelEnd2>2497</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\KALI Santa Monica A1 20200420\EWARM\SRC\stm32f1xx_it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>53</YPos2><SelStart2>2227</SelStart2><SelEnd2>2227</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\tcp_proc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1363</YPos2><SelStart2>23402</SelStart2><SelEnd2>23402</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>10</YPos2><SelStart2>1005</SelStart2><SelEnd2>1005</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\app.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>399</YPos2><SelStart2>11893</SelStart2><SelEnd2>11893</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\device.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>82</YPos2><SelStart2>2214</SelStart2><SelEnd2>2214</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>141</YPos2><SelStart2>6348</SelStart2><SelEnd2>6348</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\UTILITY\spix.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>51</YPos2><SelStart2>1494</SelStart2><SelEnd2>1494</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\dhcp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>28</YPos2><SelStart2>3539</SelStart2><SelEnd2>3539</SelEnd2></Tab><ActiveTab>23</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\KALI Santa Monica A1 20200420\EWARM\UTILITY\spix.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>482</YPos2><SelStart2>15524</SelStart2><SelEnd2>15524</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\KALI Santa Monica A1 20200420\EWARM\Ethernet\w5500.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>27</YPos2><SelStart2>681</SelStart2><SelEnd2>681</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\socket.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>136</YPos2><SelStart2>3829</SelStart2><SelEnd2>3829</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\INC\misc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>26</YPos2><SelStart2>1419</SelStart2><SelEnd2>1419</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>296</SelStart2><SelEnd2>305</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\dhcp.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>53</YPos2><SelStart2>1810</SelStart2><SelEnd2>1849</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00F0E258><key>iaridepm.enu1</key></Toolbar-00F0E258></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>486</Bottom><Right>268</Right><x>-2</x><y>-2</y><xscreen>270</xscreen><yscreen>289</yscreen><sizeHorzCX>168750</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>168750</sizeVertCX><sizeVertCY>596577</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>287</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>289</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>168750</sizeVertCX><sizeVertCY>353301</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

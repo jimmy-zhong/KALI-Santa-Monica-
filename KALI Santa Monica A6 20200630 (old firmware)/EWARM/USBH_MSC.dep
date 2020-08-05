@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2475799326</fileChecksum>
+  <configuration>
+    <name>STM3210C_EVAL</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Src\file_operations.c</file>
+      <file>$PROJ_DIR$\startup_stm32f107xc.s</file>
+      <file>$PROJ_DIR$\..\Src\explorer.c</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\main.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\explorer.pbi</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\startup_stm32f107xc.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\system_stm32f1xx.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\usbh_diskio.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\usbh_conf.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\stm32f1xx_it.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\menu.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\explorer.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\file_operations.o</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Exe\Project.out</file>
+      <file>$PROJ_DIR$\..\Src\main.c</file>
+      <file>$PROJ_DIR$\..\Src\menu.c</file>
+      <file>$PROJ_DIR$\..\Src\stm32f1xx_it.c</file>
+      <file>$PROJ_DIR$\..\Src\usbh_conf.c</file>
+      <file>$PROJ_DIR$\..\Src\usbh_diskio.c</file>
+      <file>$PROJ_DIR$\..\readme.txt</file>
+      <file>$PROJ_DIR$\..\Src\system_stm32f1xx.c</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\file_operations.pbi</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\menu.pbi</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\stm32f1xx_it.pbi</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\usbh_conf.pbi</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\usbh_diskio.pbi</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\system_stm32f1xx.pbi</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\USBH_MSC.pbd</file>
+      <file>$PROJ_DIR$\startup_stm32f105xc.s</file>
+      <file>$PROJ_DIR$\STM3210C_EVAL\Obj\startup_stm32f105xc.o</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\Src\file_operations.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_stm32f107xc.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\explorer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\menu.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\stm32f1xx_it.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\usbh_conf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\usbh_diskio.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Src\system_stm32f1xx.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\startup_stm32f105xc.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

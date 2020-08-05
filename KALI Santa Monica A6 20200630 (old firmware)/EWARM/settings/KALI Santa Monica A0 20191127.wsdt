@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>kali_sm_a0_20191127/STM3210C_EVAL</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1541</ColumnWidth1></Debug-Log>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>241</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>821</ColumnWidth1><ColumnWidth2>374</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build><Find-in-Files><ColumnWidth0>588</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>596</ColumnWidth2><ColumnWidth3>315</ColumnWidth3></Find-in-Files><TerminalIO/><Select-Ambiguous-Definitions><ColumnWidth0>566</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>946</ColumnWidth2></Select-Ambiguous-Definitions><Breakpoints><col-names><item>Breakpoint</item><item>_I0</item></col-names><col-widths><item>500</item><item>35</item></col-widths><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Breakpoints><Find-All-Declarations><ColumnWidth0>552</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>946</ColumnWidth2></Find-All-Declarations><WATCH_1><PreferedWindows><Position>4</Position><ScreenPosX>995</ScreenPosX><ScreenPosY>106</ScreenPosY><Windows/></PreferedWindows></WATCH_1><PROJECT_GUI_CSTAT><col-names><item>Check</item><item>File</item><item>Line</item><item>Message</item><item>Severity</item></col-names><col-widths><item>200</item><item>200</item><item>100</item><item>500</item><item>100</item></col-widths><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></PROJECT_GUI_CSTAT><Find-All-References><ColumnWidth0>552</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>946</ColumnWidth2></Find-All-References><PROJECT_GUI_CALL_GRAPH><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows><col-names><item>File</item><item>Function</item><item>Line</item></col-names><col-widths><item>200</item><item>700</item><item>100</item></col-widths></PROJECT_GUI_CALL_GRAPH></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-1037-1816</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>kali_sm_a0_20191127</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Application</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Application/EWARM</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Application/User</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Drivers</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Drivers/STM32F1xx_HAL_Driver</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Middlewares</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Middlewares/FatFs</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Utilities</ExpandedNode><ExpandedNode>kali_sm_a0_20191127/Utilities/lcd_log.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-11786-1820</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-14065-3005</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-7606-17250</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-4212-12756</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-30455-11770</Identity><TabName>Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab><Tab><Identity>TabID-11396-13705</Identity><TabName>References</TabName><Factory>Find-All-References</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>1</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\misc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>413</YPos2><SelStart2>10524</SelStart2><SelEnd2>10524</SelEnd2></Tab><ActiveTab>0</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01B60610><key>iaridepm.enu1</key></Toolbar-01B60610></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>486</Bottom><Right>332</Right><x>-2</x><y>-2</y><xscreen>270</xscreen><yscreen>289</yscreen><sizeHorzCX>168750</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>208750</sizeVertCX><sizeVertCY>596577</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>287</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>289</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>168750</sizeVertCX><sizeVertCY>353301</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armstlink2.dll" 
+
+"D:\Rick Job Space\Santa Monica\KALI Santa Monica A3 20200507\EWARM\STM3210C_EVAL\Exe\kali_sm_a2_20200427.out" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\config\debugger\ST\STM32F1xx.dmac" 
+
+--flash_loader "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\config\flashloader\ST\FlashSTM32F105xC.board" 
+
+
+
+

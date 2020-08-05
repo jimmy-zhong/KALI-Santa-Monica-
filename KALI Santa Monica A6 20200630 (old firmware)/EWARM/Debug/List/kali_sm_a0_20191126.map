@@ -1,0 +1,217 @@
+###############################################################################
+#
+# IAR ELF Linker V7.80.2.11947/W32 for ARM                26/Nov/2019  16:55:47
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Rick's workspace\Santa Monica\KALI Santa Monica A0
+#        20191126\EWARM\Debug\Exe\kali_sm_a0_20191126.out
+#    Map file     =  
+#        D:\Rick's workspace\Santa Monica\KALI Santa Monica A0
+#        20191126\EWARM\Debug\List\kali_sm_a0_20191126.map
+#    Command line =  
+#        "D:\Rick's workspace\Santa Monica\KALI Santa Monica A0
+#        20191126\EWARM\Debug\Obj\main.o" "D:\Rick's workspace\Santa
+#        Monica\KALI Santa Monica A0
+#        20191126\EWARM\Debug\Obj\startup_stm32f105xc.o" "D:\Rick's
+#        workspace\Santa Monica\KALI Santa Monica A0
+#        20191126\EWARM\Debug\Obj\stm32f1xx_it.o" "D:\Rick's workspace\Santa
+#        Monica\KALI Santa Monica A0
+#        20191126\EWARM\Debug\Obj\system_stm32f1xx.o" -o "D:\Rick's
+#        workspace\Santa Monica\KALI Santa Monica A0
+#        20191126\EWARM\Debug\Exe\kali_sm_a0_20191126.out" --map "D:\Rick's
+#        workspace\Santa Monica\KALI Santa Monica A0
+#        20191126\EWARM\Debug\List\kali_sm_a0_20191126.map" --config
+#        "C:\Program Files\IAR Systems\Embedded Workbench
+#        7.5\arm\config\linker\ST\stm32f105xC.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2000ffff] { rw, block CSTACK, block HEAP };
+
+  Section   Kind        Address    Size  Object
+  -------   ----        -------    ----  ------
+"A0":                             0x150
+  .intvec   ro code  0x08000000   0x150  startup_stm32f105xc.o [1]
+                   - 0x08000150   0x150
+
+"P1":                             0x1dc
+  .text     ro code  0x08000150    0x7c  system_stm32f1xx.o [1]
+  .text     ro code  0x080001cc    0x1a  cmain.o [4]
+  .text     ro code  0x080001e6     0x4  low_level_init.o [3]
+  .text     ro code  0x080001ea     0x4  main.o [1]
+  .text     ro code  0x080001ee     0x4  exit.o [3]
+  .text     ro code  0x080001f2    0x12  stm32f1xx_it.o [1]
+  .text     ro code  0x08000204     0xa  cexit.o [4]
+  .text     ro code  0x08000210    0x14  exit.o [5]
+  .text     ro code  0x08000224    0x10  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000234     0xc  cstartup_M.o [4]
+  .text     ro code  0x08000240     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000244     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000248     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x0800024c     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000250     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000254     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000258     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x0800025c     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000260     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000264     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000268     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x0800026c     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000270     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000274     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000278     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x0800027c     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000280     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000284     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000288     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x0800028c     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000290     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000294     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000298     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x0800029c     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002a0     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002a4     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002a8     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002ac     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002b0     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002b4     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002b8     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002bc     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002c0     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002c4     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002c8     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002cc     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002d0     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002d4     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002d8     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002dc     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002e0     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002e4     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002e8     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002ec     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002f0     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002f4     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002f8     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x080002fc     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000300     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000304     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000308     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x0800030c     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000310     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000314     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000318     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x0800031c     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000320     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000324     0x4  startup_stm32f105xc.o [1]
+  .text     ro code  0x08000328     0x4  startup_stm32f105xc.o [1]
+                   - 0x0800032c   0x1dc
+
+"P2":                            0x1000
+  CSTACK             0x20000000  0x1000  <Block>
+    CSTACK  uninit   0x20000000  0x1000  <Block tail>
+                   - 0x20001000  0x1000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  rw data
+    ------                 -------  -------
+D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Debug\Obj: [1]
+    main.o                       4
+    startup_stm32f105xc.o      588
+    stm32f1xx_it.o              18
+    system_stm32f1xx.o         124
+    ---------------------------------------
+    Total:                     734
+
+command line: [2]
+    ---------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                       4
+    low_level_init.o             4
+    ---------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [4]
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    ---------------------------------------
+    Total:                      48
+
+shb_l.a: [5]
+    exit.o                      20
+    ---------------------------------------
+    Total:                      20
+
+    Gaps                         2
+    Linker created                    4 096
+-------------------------------------------
+    Grand Total:               812    4 096
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                    Address  Size  Type      Object
+-----                    -------  ----  ----      ------
+?main                 0x080001cd        Code  Gb  cmain.o [4]
+BusFault_Handler      0x080001f9   0x2  Code  Gb  stm32f1xx_it.o [1]
+CSTACK$$Base          0x20000000         --   Gb  - Linker created -
+CSTACK$$Limit         0x20001000         --   Gb  - Linker created -
+DebugMon_Handler      0x080001ff   0x2  Code  Gb  stm32f1xx_it.o [1]
+HardFault_Handler     0x080001f5   0x2  Code  Gb  stm32f1xx_it.o [1]
+MemManage_Handler     0x080001f7   0x2  Code  Gb  stm32f1xx_it.o [1]
+NMI_Handler           0x080001f3   0x2  Code  Gb  stm32f1xx_it.o [1]
+PendSV_Handler        0x08000201   0x2  Code  Gb  stm32f1xx_it.o [1]
+Region$$Table$$Base   0x00000000         --   Gb  - Linker created -
+Region$$Table$$Limit  0x00000000         --   Gb  - Linker created -
+SVC_Handler           0x080001fd   0x2  Code  Gb  stm32f1xx_it.o [1]
+SysTick_Handler       0x08000203   0x2  Code  Gb  stm32f1xx_it.o [1]
+SystemInit            0x08000151  0x60  Code  Gb  system_stm32f1xx.o [1]
+UsageFault_Handler    0x080001fb   0x2  Code  Gb  stm32f1xx_it.o [1]
+__cmain               0x080001cd        Code  Gb  cmain.o [4]
+__exit                0x08000211  0x14  Code  Gb  exit.o [5]
+__iar_program_start   0x08000235        Code  Gb  cstartup_M.o [4]
+__low_level_init      0x080001e7   0x4  Code  Gb  low_level_init.o [3]
+__vector_table        0x08000000        Data  Gb  startup_stm32f105xc.o [1]
+_call_main            0x080001d9        Code  Gb  cmain.o [4]
+_exit                 0x08000205        Code  Gb  cexit.o [4]
+_main                 0x080001e3        Code  Gb  cmain.o [4]
+exit                  0x080001ef   0x4  Code  Gb  exit.o [3]
+main                  0x080001eb   0x4  Code  Gb  main.o [1]
+
+
+[1] = D:\Rick's workspace\Santa Monica\KALI Santa Monica A0 20191126\EWARM\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+    812 bytes of readonly  code memory
+  4 096 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

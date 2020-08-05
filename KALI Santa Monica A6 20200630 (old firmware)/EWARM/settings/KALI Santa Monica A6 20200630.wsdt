@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>kali_sm_a6_20200630/STM3210C_EVAL</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Build</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Select-Ambiguous-Definitions</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1541</ColumnWidth1></Debug-Log>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>284</Column0><Column1>23</Column1><Column2>32</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Find-in-Files</Factory></Window><Window><Factory>Select-Ambiguous-Definitions</Factory></Window></Windows></PreferedWindows><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+      <TerminalIO/>
+      <Find-in-Files>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Build</Factory></Window><Window><Factory>Select-Ambiguous-Definitions</Factory></Window></Windows></PreferedWindows><ColumnWidth0>473</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>710</ColumnWidth2><ColumnWidth3>315</ColumnWidth3></Find-in-Files>
+    <Select-Ambiguous-Definitions><ColumnWidth0>552</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>946</ColumnWidth2><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Debug-Log</Factory></Window><Window><Factory>Build</Factory></Window><Window><Factory>Find-in-Files</Factory></Window></Windows></PreferedWindows></Select-Ambiguous-Definitions><Breakpoints><col-names><item>Breakpoint</item><item>_I0</item></col-names><col-widths><item>500</item><item>35</item></col-widths><PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows/></PreferedWindows></Breakpoints><Tool-Output/></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-27195-20950</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>kali_sm_a6_20200630</ExpandedNode><ExpandedNode>kali_sm_a6_20200630/Application</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3><Tabs><Tab><Identity>TabID-22904-31144</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-32607-31167</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-20813-31183</Identity><TabName>Tool Output</TabName><Factory>Tool-Output</Factory><Session/></Tab><Tab><Identity>TabID-31039-31196</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\tcp_proc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>105</YPos2><SelStart2>4468</SelStart2><SelEnd2>4468</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\biquads.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>97</YPos2><SelStart2>2343</SelStart2><SelEnd2>2343</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\tcp_proc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>18</YPos2><SelStart2>476</SelStart2><SelEnd2>476</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\w5500.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>38</YPos2><SelStart2>807</SelStart2><SelEnd2>807</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\device.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>157</SelStart2><SelEnd2>157</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\INC\misc.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>146</YPos2><SelStart2>6169</SelStart2><SelEnd2>6169</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\app.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>369</YPos2><SelStart2>10834</SelStart2><SelEnd2>10834</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\INC\app.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>83</YPos2><SelStart2>4213</SelStart2><SelEnd2>4334</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1005</SelStart2><SelEnd2>1005</SelEnd2></Tab><ActiveTab>8</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Ethernet\device.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>117</YPos2><SelStart2>3070</SelStart2><SelEnd2>3070</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Middlewares\ST\STM32_USB_Host_Library\Core\Src\usbh_core.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\misc.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>571</YPos2><SelStart2>17049</SelStart2><SelEnd2>17049</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\SRC\stm32f1xx_it.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>46</YPos2><SelStart2>2227</SelStart2><SelEnd2>2227</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\UTILITY\spix.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>345</YPos2><SelStart2>11289</SelStart2><SelEnd2>11289</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00F6E5B8><key>iaridepm.enu1</key></Toolbar-00F6E5B8></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>575</Bottom><Right>359</Right><x>-2</x><y>-2</y><xscreen>270</xscreen><yscreen>289</yscreen><sizeHorzCX>168750</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>225625</sizeVertCX><sizeVertCY>705379</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>200</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>244499</sizeHorzCY><sizeVertCX>125000</sizeVertCX><sizeVertCY>244499</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

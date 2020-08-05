@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>kali_sm_a1_20200420/STM3210C_EVAL</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1541</ColumnWidth1></Debug-Log>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>321</Column0><Column1>1</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1155</ColumnWidth1><ColumnWidth2>308</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+    <Find-in-Files><ColumnWidth0>473</ColumnWidth0><ColumnWidth1>78</ColumnWidth1><ColumnWidth2>710</ColumnWidth2><ColumnWidth3>315</ColumnWidth3></Find-in-Files><TerminalIO/></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-12102-32437</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>kali_sm_a1_20200420</ExpandedNode><ExpandedNode>kali_sm_a1_20200420/Application</ExpandedNode><ExpandedNode>kali_sm_a1_20200420/Application/User</ExpandedNode><ExpandedNode>kali_sm_a1_20200420/INCLUDE</ExpandedNode><ExpandedNode>kali_sm_a1_20200420/Middlewares</ExpandedNode><ExpandedNode>kali_sm_a1_20200420/UTILITY</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-22850-32440</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-9551-126</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-30423-16784</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane/><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00F8C8E0><key>iaridepm.enu1</key></Toolbar-00F8C8E0></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>486</Bottom><Right>386</Right><x>-2</x><y>-2</y><xscreen>270</xscreen><yscreen>289</yscreen><sizeHorzCX>168750</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>242500</sizeVertCX><sizeVertCY>596577</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>287</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>289</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>353301</sizeHorzCY><sizeVertCX>168750</sizeVertCX><sizeVertCY>353301</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
